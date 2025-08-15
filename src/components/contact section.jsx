@@ -26,20 +26,6 @@ export default function ContactSection() {
     e.preventDefault();
   setStatus("Sending...");
 
-/* 
-service_oxmzkbd
-
-SERVICE_ID=service_oxmzkbd
-TEMPLATE_ID=template_32v0nuw
-PUBLIC_KEY=lCCbZX3-DRFAGBIG6
-
-
-
-        emailjs
-      .sendForm("service_oxmzkbd", "template_32v0nuw", form.current, {
-        publicKey: "lCCbZX3-DRFAGBIG6",
-      })
-*/
 
  emailjs
       .sendForm(`${import.meta.env.VITE_SERVICE_ID}`, `${import.meta.env.VITE_TEMPLATE_ID}`, form.current, {
@@ -213,7 +199,3 @@ PUBLIC_KEY=lCCbZX3-DRFAGBIG6
   );
 };
 
-/* 
-serviceid = 
-
-*/
