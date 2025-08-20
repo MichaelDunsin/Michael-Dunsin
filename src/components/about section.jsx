@@ -13,14 +13,14 @@ export default function AboutSection() {
         viewport={{ once: true, amount: 0.3,}}
         className=" flex h-80 w-72 border-4 border-gray-950 rounded-2xl sm:h-96 sm:w-80 flex-shrink-0 items-center justify-center  shadow-black shadow-2xl md:h-96 2md:w-[330px] md:w-80 lg:w-96 2md:h-[425px] ">
           <img
-            src="/profile.jpg"
+            src="/profile.webp"
             alt="Profile Picture"
             className="h-full w-full rounded-xl filter grayscale transition hover:grayscale-0 duration-400 object-cover"/*  */
           />
         </motion.div>
         {/* Right - Content */}
         <motion.div 
-         initial={{ opacity: 0, x: 30 }}
+         initial={{ opacity: 0, x: 10 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 200, damping: 10}}
         viewport={{ once: true, amount: 0.3,}}

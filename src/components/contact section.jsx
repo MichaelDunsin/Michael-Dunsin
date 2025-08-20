@@ -132,7 +132,7 @@ export default function ContactSection() {
           </motion.div>
           {/* Contact Form */}
           <motion.form
-              initial={{ opacity: 0, x: 30 }}
+              initial={{ opacity: 0, x: -10 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 200, damping: 10}}
         viewport={{ once: true, amount: 0.3,}}
